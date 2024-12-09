@@ -194,7 +194,7 @@ body {
 
 .merch-name {
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 300;
   color: #2B4D5E;
   margin-top: 10px;
   padding: 5px 10px;
@@ -213,13 +213,12 @@ body {
   font-size: 20px;
   border-radius: 25px;
   cursor: pointer;
-  font-weight: bold;
   transition: background-color 0.3s ease;
   text-decoration: none; /* no underline */
 }
 
 .button:hover {
-  background-color: #2B4D5E; /* Button hover background color */
+  background-color: #2B4D5E; 
   color : #EAE3B9;
 }
 
@@ -246,13 +245,13 @@ body {
 .navbar img {
   height: 64px; /* 로고 높이 */
   position: absolute;
-  left: 40px; /* Adjust based on your padding/margin needs */
-  top: 20px; /* Align with the navbar's padding */
+  left: 40px; 
+  top: 20px; 
 }
 
 
 #header .navbar {
-  position: relative; /* Allows logo to be positioned absolutely */
+  position: relative; 
   display: flex;
   justify-content: center; 
         /*https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content*/
@@ -291,49 +290,6 @@ body {
 
 .navbar ul li a.active {
   color: #EF5851;
-}
-
-/* Navigation Drop Down Style */
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropbtn {
-  font-family: pyeonghwa, sans-serif;
-  text-decoration: none;
-  color: #ffffff;
-  font-size: 26px;
-  font-weight: bold;
-  background-color: transparent; /* 드롭다운 배경 색을 투명하게 */
-  border: none;
-  cursor: pointer;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  min-width: 160px;
-  z-index: 1;
-}
-
-.dropdown-content a {
-  float: none;
-  font-size: 20px !important;
-  color: #ffffff;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.dropdown:hover .dropbtn {
-  color: #EF5851; /* 드롭다운 버튼에 hover 시 색상 변경 */
 }
 
 .footer{
