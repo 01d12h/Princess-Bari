@@ -169,16 +169,18 @@ body {
   aspect-ratio: 1 / 1; 
   display: flex;
   flex-direction: column; /* 사진과 텍스트 세로 정렬 */
-  justify-content: center;
+  justify-content: center;   
   align-items: center;
   position: relative;
-
+  max-width: 330px; 
+  max-height: 330px;
 }
 
 .merch-box img {
   transition: transform 0.3s ease;
-  max-width: 150px; 
-  max-height: 150px;
+  max-width: 160px; 
+  max-height: 160px;
+  margin-top: 10px;
   align-self: center;
 }
 
@@ -193,13 +195,13 @@ body {
 }
 
 .merch-name {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 300;
   color: #2B4D5E;
-  margin-top: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
   padding: 5px 10px;
   border-top: 1px solid #ddd; /* 텍스트 상단 경계선 */
-  position: absolute; 
   bottom: 0; 
 }
 
@@ -215,6 +217,13 @@ body {
   cursor: pointer;
   transition: background-color 0.3s ease;
   text-decoration: none; /* no underline */
+}
+
+.button.merch{
+  font-size: 20px;
+  border-radius: 20px;
+  padding: 10px 20px !important;
+  margin-bottom: 20px;
 }
 
 .button:hover {
